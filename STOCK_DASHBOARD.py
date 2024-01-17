@@ -30,10 +30,10 @@ with pricing_data:
     st.write('Standaard Deviation is ',stdev*100,'%')
     st.write('Rick Adj, Return is',annual_return/(stdev*100))
 
-# X20KMA54H412BR7A
+
 from alpha_vantage.fundamentaldata import FundamentalData
 with fundamental_data:
-    key = 'X20KMA54H412BR7A'
+    key = 'go make your own'
     fd = FundamentalData(key,output_format = 'pandas')
     st.subheader('Balance Sheet')
     balance_sheet = fd.get_balance_sheet_annual(ticker)[0]
