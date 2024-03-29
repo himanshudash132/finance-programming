@@ -6,6 +6,11 @@ This project is a stock dashboard created using Streamlit, yfinance, plotly, alp
 The dashboard provides information on stock price movements, fundamental data (balance sheet, income statement, cash flow statement),
 and the top 10 news articles related to a specified stock.
 
+https://github.com/himanshudash132/finance-programming/blob/main/main.png
+
+![Screenshot](https://github.com/himanshudash132/finance-programming/blob/main/main.png)
+
+
 ## Features
 
 - **Price Movements:** Visual representation of stock price movements with interactive charts.
